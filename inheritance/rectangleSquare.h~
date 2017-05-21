@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+class rectangle
+{
+ public:
+  rectangle(); //default constructor
+  rectangle(double, double);
+  double get_area() const;
+  double get_perimeter() const;
+ private:
+  double length;
+  double height;
+};
+
