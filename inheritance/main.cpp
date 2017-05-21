@@ -10,18 +10,17 @@ int main()
   rectangle r0;
   square s0;
 
-  std::cout << r.get_perimeter() << std::endl;
-  std:: cout << r.get_area() << std::endl;
+  std::cout << "The perimeter of the rectangle is " <<  r.get_perimeter() << std::endl;
+  std::cout << "The area of the rectangle is " << r.get_area() << std::endl;
 
-  std::cout << s.get_perimeter() << std::endl;
-  std::cout << s.get_area() << std::endl;
+  std::cout << "The perimeter of the square is " <<  s.get_perimeter() << std::endl;
+  std::cout << "The area of the square is " <<  s.get_area() << std::endl;
 
-  std::cout << r0.get_perimeter() << endl;
-  std::cout << r0.get_area() << std::endl;
+  std::cout << "The perimeter of a default rectangle is " << r0.get_perimeter() << endl;
+  std::cout << "The area of a default rectangle is " << r0.get_area() << std::endl;
 
-  std::cout << s0.get_perimeter() << std::endl;
-  std::cout << s0.get_area() << std::endl;
-
+  std::cout << "The perimeter of a default square is " << s0.get_perimeter() << std::endl;
+  std::cout << "The area of a default square is " << s0.get_area() << std::endl;
   
   return 0;
 }
